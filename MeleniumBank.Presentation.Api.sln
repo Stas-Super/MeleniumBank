@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeleniumBank.Presentation.Api", "MeleniumBank.Presentation.Api\MeleniumBank.Presentation.Api.csproj", "{CD02D019-032C-4672-926C-AA6C87919CFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CFF2721E-D3C9-4C6A-8C26-70E54919A628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{337AED36-C646-4FE1-B245-4C757B90B85C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E7F64CD8-EC86-4122-8545-4C54E461E4A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{55E1D8F5-7650-4111-ACD6-FABED666F520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeleniumBank.Infrastructure.Business", "MeleniumBank.Infrastructure.Business\MeleniumBank.Infrastructure.Business.csproj", "{14E2020F-D67A-4936-9178-A0F9C8CCAFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeleniumBank.Services.Interfaces", "Melenium.Services.Interfaces\MeleniumBank.Services.Interfaces.csproj", "{4F2D8CAE-8532-491D-803E-3E442904F196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melenium.Presentation.Extentions", "Melenium.Presentation.Extentions\Melenium.Presentation.Extentions.csproj", "{815CF8CF-C5AC-49C2-B505-55F25FAC713F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD02D019-032C-4672-926C-AA6C87919CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD02D019-032C-4672-926C-AA6C87919CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD02D019-032C-4672-926C-AA6C87919CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD02D019-032C-4672-926C-AA6C87919CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E2020F-D67A-4936-9178-A0F9C8CCAFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E2020F-D67A-4936-9178-A0F9C8CCAFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E2020F-D67A-4936-9178-A0F9C8CCAFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E2020F-D67A-4936-9178-A0F9C8CCAFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2D8CAE-8532-491D-803E-3E442904F196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2D8CAE-8532-491D-803E-3E442904F196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2D8CAE-8532-491D-803E-3E442904F196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2D8CAE-8532-491D-803E-3E442904F196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815CF8CF-C5AC-49C2-B505-55F25FAC713F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815CF8CF-C5AC-49C2-B505-55F25FAC713F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815CF8CF-C5AC-49C2-B505-55F25FAC713F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815CF8CF-C5AC-49C2-B505-55F25FAC713F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD02D019-032C-4672-926C-AA6C87919CFC} = {CFF2721E-D3C9-4C6A-8C26-70E54919A628}
+		{14E2020F-D67A-4936-9178-A0F9C8CCAFBC} = {337AED36-C646-4FE1-B245-4C757B90B85C}
+		{4F2D8CAE-8532-491D-803E-3E442904F196} = {55E1D8F5-7650-4111-ACD6-FABED666F520}
+		{815CF8CF-C5AC-49C2-B505-55F25FAC713F} = {CFF2721E-D3C9-4C6A-8C26-70E54919A628}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55E5B29A-3475-4F70-A643-27BD39A6DC17}
+	EndGlobalSection
+EndGlobal
