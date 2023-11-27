@@ -1,6 +1,6 @@
 ﻿using MediatR;
-using MeleniumBank.Services.Interfaces.Dtos.Melenium.GetAll;
-using MeleniumBank.Services.Interfaces.Interfaces;
+using MeleniumBank.Presentation.Api.Dtos.Melenium.GetAll;
+using MeleniumBank.Presentation.Api.Services.Interfaces;
 
 namespace MeleniumBank.Presentation.Api.Controllers.Melenium.RequestHandlers.GetCurrency
 {

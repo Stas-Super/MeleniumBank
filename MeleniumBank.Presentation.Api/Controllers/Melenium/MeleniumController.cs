@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using MeleniumBank.Presentation.Api.Controllers.Melenium.RequestHandlers.GetAll;
 using MeleniumBank.Presentation.Api.Controllers.Melenium.RequestHandlers.GetCurrency;
-using MeleniumBank.Services.Interfaces.Dtos.Melenium.GetAll;
+using MeleniumBank.Presentation.Api.Dtos.Melenium.GetAll;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
