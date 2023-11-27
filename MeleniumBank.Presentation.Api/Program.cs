@@ -1,4 +1,4 @@
-using Melenium.Presentation.Extentions;
+using Melenium.Presentation.Api.Extentions;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
