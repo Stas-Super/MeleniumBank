@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeleniumBank.Presentation.Api", "MeleniumBank.Presentation.Api\MeleniumBank.Presentation.Api.csproj", "{CD02D019-032C-4672-926C-AA6C87919CFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeleniumBank.Presentation.Client", "MeleniumBank.Presentation.Client\MeleniumBank.Presentation.Client.csproj", "{9765CE3F-F70C-425D-B446-F17CF45E5971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CD02D019-032C-4672-926C-AA6C87919CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD02D019-032C-4672-926C-AA6C87919CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD02D019-032C-4672-926C-AA6C87919CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9765CE3F-F70C-425D-B446-F17CF45E5971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9765CE3F-F70C-425D-B446-F17CF45E5971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9765CE3F-F70C-425D-B446-F17CF45E5971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9765CE3F-F70C-425D-B446-F17CF45E5971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
